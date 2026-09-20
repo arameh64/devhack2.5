@@ -54,6 +54,13 @@ if(WIFEXITED(status))
 printf("child was exited %d \n", WEXITSTATUS(status));
 }
 
+if(WIFSIGNALED(status))
+{
+    int signum = status;
+    printf("child was exited %d \n", signum);
+
+}
+
 }
 
 printf("parent done\n");
