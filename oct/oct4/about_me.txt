@@ -1,0 +1,3 @@
+name=arameh
+age=17
+city=yerevan

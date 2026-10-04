@@ -1,0 +1,29 @@
+HBVF%%RTY65456789ijhBGVF     `%R@BWI@Vv923evtdwsuinb ^v     *&^Fg Jh 
+
+
+Eidvew c
+we
+rfc
+s
+r
+44
+4356
+6
+tygewfs
+ax
+
+[INFO] Server started
+[ERROR] Disk is full
+[INFO] User Anna logged in
+[ERROR] Connection lost
+Որոնվող բառ՝ ERROR
+Ելք՝
+2: [ERROR] Disk is full
+4: [ERROR] Connection lost
+Գտնվեց 2 տողում։
+
+
+Խնդիր 6. Կեսարի գաղտնագիր
+Գրել ծրագիր, որը օգտվողից ստանում է մուտքային ֆայլի անունը, ելքային ֆայլի անունը և բանալին (ամբողջ թիվ)։ Ծրագիրը fgetc()-ով կարդում է մուտքային ֆայլը և յուրաքանչյուր անգլերեն տառ տեղաշարժում է բանալու չափով (բանալին 3 լինելու դեպքում՝ a→d, x→a, A→D), իսկ մնացած սիմվոլները թողնում է անփոփոխ։ Արդյունքը fputc()-ով գրել ելքային ֆայլում։
+Նույն ծրագրով գաղտնագրել secret.txt ֆայլը (բանալի՝ 3) և ստանալ encrypted.txt, ապա encrypted.txt-ից բացասական բանալիով (-3) ստանալ decrypted.txt և համոզվել, որ այն համընկնում է սկզբնական ֆայլի հետ (diff secret.txt decrypted.txt)։
+Օրինակ՝ "Hello, World!" → "Khoor, Zruog!"
