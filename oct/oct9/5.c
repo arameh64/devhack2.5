@@ -7,10 +7,10 @@ int main()
 {
     char in_name[256], out_name[256], key;
     printf("enter input file: ");
-    if(scanf("%255s", in_name)!=1)
+    if(scanf("%s", in_name)!=1)
         exit(1);
     printf("enter output file: ");
-    if(scanf("%255s", out_name)!=1)
+    if(scanf("%s", out_name)!=1)
         exit(1);
     printf("enter key: ");
     if(scanf(" %c", &key)!=1)
@@ -49,9 +49,3 @@ int main()
     return 0;
 }
 
-/*
- Հարց՝ ինչու՞ է նույն ծրագիրը և՛ գաղտնագրում, և՛ վերծանում։
- Պատասխան՝ XOR-ը ինքն իր հակադարձն է՝ (x ^ k) ^ k == x ^ (k ^ k) == x ^ 0 == x։
- Գաղտնագրելիս յուրաքանչյուր բայթ դառնում է x ^ k, իսկ նույն բանալիով
- կրկին XOR անելիս k-ն չեղարկվում է, և ստացվում է սկզբնական x-ը։
-*/

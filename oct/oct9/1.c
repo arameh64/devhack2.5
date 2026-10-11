@@ -21,7 +21,7 @@ int main()
     for(int i=0; i<5; i++)
     {
         printf("enter student %d name: ", i+1);
-        scanf("%63s",std[i].name);
+        scanf("%s",std[i].name);
         printf("enter student %d grade: ", i+1);
         if(scanf("%d",&std[i].grade)!=1 || std[i].grade<0 || std[i].grade>100)
         {
@@ -43,7 +43,7 @@ int main()
 
     struct student s, best={-1, ""};
     int sum=0, count=0;
-    while(fscanf(fd, "%63s %d", s.name, &s.grade)==2)
+    while(fscanf(fd, "%s %d", s.name, &s.grade)==2)
     {
         sum+=s.grade;
         count++;

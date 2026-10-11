@@ -66,3 +66,6 @@ int main()
     fclose(weak);
     return 0;
 }
+
+
+//used ai to clean up the code but the functionality isn not changed

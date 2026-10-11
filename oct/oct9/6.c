@@ -21,7 +21,7 @@ int main()
     }
 
     char buf[256], outbuf[256];
-    char last='\n'; // last written char survives across buffers; '\n' drops leading empty lines
+    char last='\n'; 
     ssize_t n;
     while((n=read(in, buf, sizeof buf))>0)
     {
