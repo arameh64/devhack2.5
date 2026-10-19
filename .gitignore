@@ -1,3 +1,7 @@
 a.out
 *.out
 .vscode
+*.db
+*.o
+ruvector.db
+*.db
