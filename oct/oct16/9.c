@@ -33,17 +33,7 @@ int main(void)
         printf("0 - exit\n");
         printf("choice: ");
 
-        if (scanf("%d", &choice) != 1)
-        {
-            if (feof(stdin))
-            {
-                break;
-            }
-            clear_input();
-            printf("invalid input\n");
-            continue;
-        }
-        clear_input();
+
 
         if (choice == 1)
         {
